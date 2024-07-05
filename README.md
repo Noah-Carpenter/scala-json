@@ -1,8 +1,9 @@
-## sbt project compiled with Scala 3
+# Scala JSON
 
-### Usage
+This is just something I built while getting the hang of scala, definitely should not be used by anyone.
 
-This is a normal sbt project. You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
+Currently this was just a way for me to have dynamic JSON Objects (I know, kind of defeats the point of using scala ay?) within scala that I could easily print out to actual json.
 
-For more information on the sbt-dotty plugin, see the
-[scala3-example-project](https://github.com/scala/scala3-example-project/blob/main/README.md).
+## Usage
+
+This hinges around the `JSONObject` class which you can provide a list key value pairs in a touple. The `JSONObject` class will handle the values to ensure they are printed correctly for their type.
